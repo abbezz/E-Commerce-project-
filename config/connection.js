@@ -7,13 +7,15 @@ const DB_PASSWORD = process.env.DB_PASSWORD;
 const DB_HOST = process.env.DB_HOST;
 
 
+
+
 const options = {
   host: DB_HOST,
   dialect: 'mysql',
-  port: 3307,
+  port: 3306,
   logging: false,
 };
 
-const Connection = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, options);
+const connection = new Sequelize(DB_NAME, DB_USER, DB_PASSWORD, options);
 
 module.exports = connection;
