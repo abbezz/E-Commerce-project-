@@ -1,8 +1,8 @@
-DROP DATABASE IF EXISTS abbe_db;
+DROP DATABASE IF EXISTS abbez_db;
 
-CREATE DATABASE abbe_db;
+CREATE DATABASE abbez_db;
 
-USE abbe_db;
+USE abbez_db;
 
     
 
