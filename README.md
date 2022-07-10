@@ -1,4 +1,4 @@
-E-Commerce-Shopping-Back-End
+#E-Commerce-Shopping-Back-End
 Table of Contents
 Description
 Installation
@@ -8,10 +8,10 @@ Contact Information
 Description
 This application is the back end of an E-Commerce site that allows users to control their products, categories and tags. The user can view all the products associated with a category and tag, the categories together with their tags and the tags with all their associated products. Furthermore, users are able to create, update and delete products, categories and tags.
 
-Installation
+#Installation
 node.js needs to be installed prior to use
 open terminal
-clone the repo: https://github.com/NAli3107/E-Commerce-Shopping-Back-End
+
 cd into new directory
 download JSON packages by entering npm i
 create .env file
